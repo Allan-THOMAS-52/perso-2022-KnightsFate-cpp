@@ -1,0 +1,474 @@
+{
+	"enchants": 
+	[
+		{
+		  "name": "Waterbreathing",
+		  "description": "Allows to breathe underwater.",
+		  "effect": "waterbreathing",
+		  "baseMagnitude" : -5000,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor"],
+		  "id" : 1
+		},
+		{
+		  "name": "Absorb health",
+		  "description": "Absorb health on hit.",
+		  "effect": "absorb_health",
+		  "baseMagnitude" : 8,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 2
+		},
+		{
+		  "name": "Absorb mana",
+		  "description": "Absorb mana on hit.",
+		  "effect": "absorb_mana",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 3
+		},
+		{
+		  "name": "Absorb stamina",
+		  "description": "Absorb stamina on hit.",
+		  "effect": "absorb_mana",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 4
+		},
+		{
+		  "name": "Fire Damage",
+		  "description": "Deals fire damages.",
+		  "effect": "fire_damage",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 5
+		},
+		{
+		  "name": "Frost Damage",
+		  "description": "Deals frost damages.",
+		  "effect": "frost_damage",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 6
+		},
+		{
+		  "name": "Shock Damage",
+		  "description": "Deals shock damages.",
+		  "effect": "shock_damage",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 7
+		},
+		{
+		  "name": "Light Damage",
+		  "description": "Deals damages of light.",
+		  "effect": "light_damage",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 8
+		},
+		{
+		  "name": "Dark Damage",
+		  "description": "Deals damages of darkness.",
+		  "effect": "dark_damage",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 9
+		},
+		{
+		  "name": "Augment carry weight",
+		  "description": "Augment your carry weight.",
+		  "effect": "augment_carry",
+		  "baseMagnitude" : 15,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor"],
+		  "id" : 10
+		},
+		{
+		  "name": "Greater health",
+		  "description": "Grants more health.",
+		  "effect": "greater_health",
+		  "baseMagnitude" : 8,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 11
+		},
+		{
+		  "name": "Greater mana",
+		  "description": "Grants more mana.",
+		  "effect": "greater_mana",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 12
+		},
+		{
+		  "name": "Greater stamina",
+		  "description": "Grants more stamina.",
+		  "effect": "greater_stamina",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 13
+		},
+		{
+		  "name": "Fortify light armor",
+		  "description": "Increases light armor skill.",
+		  "effect": "fortify_light_armor",
+		  "baseMagnitude" : 8,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor"],
+		  "id" : 14
+		},
+		{
+		  "name": "Fortify medium armor",
+		  "description": "Increases medium armor skill.",
+		  "effect": "fortify_medium_armor",
+		  "baseMagnitude" : 8,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor"],
+		  "id" : 15
+		},
+		{
+		  "name": "Fortify heavy armor",
+		  "description": "Increases light armor skill.",
+		  "effect": "fortify_heavy_armor",
+		  "baseMagnitude" : 8,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor"],
+		  "id" : 16
+		},
+				
+		{
+		  "name": "Health regeneration",
+		  "description": "Grants more health regeneration.",
+		  "effect": "greater_health_regen",
+		  "baseMagnitude" : 0.10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 17
+		},
+		{
+		  "name": "Mana regeneration",
+		  "description": "Grants more mana regeneration.",
+		  "effect": "greater_mana_regen",
+		  "baseMagnitude" : 0.20,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 18
+		},
+		{
+		  "name": "Stamina regeneration",
+		  "description": "Grants more stamina regeneration.",
+		  "effect": "greater_stamina_regen",
+		  "baseMagnitude" : 0.10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 19
+		},
+		{
+		  "name": "Muffling",
+		  "description": "Wearer is muffled and moves silently.",
+		  "effect": "muffling",
+		  "baseMagnitude" : -5000,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor"],
+		  "id" : 20
+		},
+		{
+		  "name": "Sharpness",
+		  "description": "Increases damage dealt by the weapon.",
+		  "effect": "sharpness",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 21
+		},
+		{
+		  "name": "Nightvision",
+		  "description": "Grants wearer nightvision.",
+		  "effect": "nightvision",
+		  "baseMagnitude" : -5000,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor"],
+		  "id" : 22
+		},
+		{
+		  "name": "Fire resistance",
+		  "description": "Augments your resistance to fire.",
+		  "effect": "fire_resistance",
+		  "baseMagnitude" : 0.10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 23
+		},
+		{
+		  "name": "Frost resistance",
+		  "description": "Augments your resistance to frost.",
+		  "effect": "frost_resistance",
+		  "baseMagnitude" : 0.10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 24
+		},
+		{
+		  "name": "Shock resistance",
+		  "description": "Augments your resistance to shock.",
+		  "effect": "shock_resistance",
+		  "baseMagnitude" : 0.10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 25
+		},
+		{
+		  "name": "Divine light resistance",
+		  "description": "Augments your resistance to divine light.",
+		  "effect": "divine_light_resistance",
+		  "baseMagnitude" : 0.05,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 26
+		},
+		{
+		  "name": "Darkness resistance",
+		  "description": "Augments your resistance to Darkness.",
+		  "effect": "Darkness_resistance",
+		  "baseMagnitude" : 0.05,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 27
+		},
+		{
+		  "name": "Poison resistance",
+		  "description": "Augments your resistance to poison.",
+		  "effect": "poison_resistance",
+		  "baseMagnitude" : 0.10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 28
+		},
+		{
+		  "name": "Earth resistance",
+		  "description": "Augments your resistance to earth.",
+		  "effect": "earth_resistance",
+		  "baseMagnitude" : 0.10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 29
+		},
+		{
+		  "name": "Wind resistance",
+		  "description": "Augments your resistance to wind.",
+		  "effect": "wind_resistance",
+		  "baseMagnitude" : 0.10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 30
+		},
+		{
+		  "name": "Sweeftness",
+		  "description": "Augment your moving speed.",
+		  "effect": "sweeftness",
+		  "baseMagnitude" : 0.025,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 31
+		},
+		{
+		  "name": "The rider",
+		  "description": "Mounts move 10% faster.",
+		  "effect": "the_rider",
+		  "baseMagnitude" : -5000,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 32
+		},
+		{
+		  "name": "Greater crafting",
+		  "description": "Weapons, armor and jewels can be upgraded better.",
+		  "effect": "greater_crafting",
+		  "baseMagnitude" : 0.05,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 33
+		},
+		{
+		  "name": "Greater cooking",
+		  "description": "Improves the foods you cook.",
+		  "effect": "greater_cooking",
+		  "baseMagnitude" : 0.05,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 34
+		},
+		{
+		  "name": "Greater alchemy",
+		  "description": "Improves the potions you brew.",
+		  "effect": "greater_alchemy",
+		  "baseMagnitude" : 0.05,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 35
+		},
+		{
+		  "name": "Greater two handed weapons",
+		  "description": "Two handed weapons deals more damage.",
+		  "effect": "greater_two_handed",
+		  "baseMagnitude" : 0.05,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 36
+		},
+		{
+		  "name": "Greater one handed weapons",
+		  "description": "Two handed weapons deals more damage.",
+		  "effect": "greater_one_handed",
+		  "baseMagnitude" : 8,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 37
+		},
+		{
+		  "name": "Greater pugilist",
+		  "description": "Your fists deals more damage.",
+		  "effect": "greater_pugilist",
+		  "baseMagnitude" : 8,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 38
+		},				
+		{
+		  "name": "Greater pickpocketing",
+		  "description": "Increases the chance of successfully pickpocketing.",
+		  "effect": "greater_pickpocketing",
+		  "baseMagnitude" : 0.08,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 39
+		},
+		{
+		  "name": "Greater counterfeit",
+		  "description": "Increases the chance of successfully counterfeit.",
+		  "effect": "greater_counterfeit",
+		  "baseMagnitude" : 0.05,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 40
+		},
+		{
+		  "name": "Greater grandiloquence",
+		  "description": "Increases the chance of successfully bribe or dissuade people.",
+		  "effect": "greater_grandiloquence",
+		  "baseMagnitude" : 0.05,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 41
+		},
+		{
+		  "name": "Greater bargain",
+		  "description": "Get better prices when you barter.",
+		  "effect": "greater_bargain",
+		  "baseMagnitude" : 0.05,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 42
+		},
+		{
+		  "name": "Greater taming",
+		  "description": "Increases the chances of successfully tame creatures.",
+		  "effect": "greater_taming",
+		  "baseMagnitude" : 0.08,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 43
+		},
+		{
+		  "name": "Greater marksman",
+		  "description": "Bows deals more damage.",
+		  "effect": "greater_marksman",
+		  "baseMagnitude" : 0.05,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 44
+		},				
+		{
+		  "name": "Greater stealth",
+		  "description": "Decreases chances of being detected while stealthed.",
+		  "effect": "greater_stealth",
+		  "baseMagnitude" : 0.08,
+		  "needRune": false,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 45
+		},
+		{
+		  "name": "Greater destruction",
+		  "description": "Decreases wind, fire, water, shock, earth spells costs.",
+		  "effect": "greater_destruction",
+		  "baseMagnitude" : 0.08,
+		  "needRune": true,
+		  "applicableItemTypes": ["Jewel"],
+		  "id" : 46
+		},
+		{
+		  "name": "Greater summoning",
+		  "description": "Decreases evocation spells costs.",
+		  "effect": "greater_summoning",
+		  "baseMagnitude" : 0.08,
+		  "needRune": false,
+		  "applicableItemTypes": ["Jewel"],
+		  "id" : 47
+		},
+		{
+		  "name": "Greater divine light",
+		  "description": "Decreases restoration spells costs.",
+		  "effect": "greater_divine_light",
+		  "baseMagnitude" : 0.08,
+		  "needRune": false,
+		  "applicableItemTypes": ["Jewel"],
+		  "id" : 48
+		},
+		{
+		  "name": "Greater insight",
+		  "description": "Decreases divination spells costs.",
+		  "effect": "greater_insight",
+		  "baseMagnitude" : 0.08,
+		  "needRune": true,
+		  "applicableItemTypes": ["Jewel"],
+		  "id" : 49
+		},
+		{
+		  "name": "Protection",
+		  "description": "Increases the chance of successfully bribe or dissuade people.",
+		  "effect": "greater_grandiloquence",
+		  "baseMagnitude" : 0.05,
+		  "needRune": true,
+		  "applicableItemTypes": ["Armor","Jewel"],
+		  "id" : 50
+		},
+		{
+		  "name": "Wind damage",
+		  "description": "Deals wind damages.",
+		  "effect": "wind_damage",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 51
+		},
+		{
+		  "name": "Earth damage",
+		  "description": "Deals earth damages.",
+		  "effect": "earth_damage",
+		  "baseMagnitude" : 10,
+		  "needRune": false,
+		  "applicableItemTypes": ["Weapon"],
+		  "id" : 52
+		}		
+	]
+}
